@@ -1,3 +1,5 @@
 def __print_f(item):
-        print item
-# (lambda x: x <= 0 if __print_f(x + 3) else (lambda y: __print_f(y))(x * 2))(4)
+	print item
+4 + 5
+lambda x: x * 5
+(lambda x: __print_f((lambda x: x * 5)(x)) if x + -1 <= 0 else __print_f(x * x))(6)
