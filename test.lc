@@ -1,3 +1,4 @@
 (+ 4 5)
 (λ (x) (* x 5))
-((λ (x) (ifleq0 (+ x -1) (println ((λ (x) (* x 5)) x)) (println (* x x)))) 6)
+((λ (x) (ifleq0 (+ x -1) (println ((λ (y) (* y 5)) x)) (println (* x x)))) 6)
+((λ (x) (ifleq0 ((λ (z) (* z -1)) x) (println ((λ (y) (* y 5)) x)) (println (* x x)))) 6)
