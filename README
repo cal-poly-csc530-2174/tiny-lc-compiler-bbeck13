@@ -1,0 +1,17 @@
+Lambda Calculus to python
+Braden Beck (bnbeck@calpoly.edu, bradabraden@gmail.com)
+
+Usage:
+   racket LCTranslator.rkt <lambdaCalculs.lc>
+outputs lambdaCalculs.py
+
+Assumes python2.7 because that's what was on my computer when I wrote it
+(I'd prefer python3 though since in that print is just a function making the translation
+even eaiser)
+
+Side note
+
+please add bradabraden@gmail.com to the piazza I can't access it from bnbeck@calpoly
+and I can't request to be added from bradabraden because it isn't in the calpoly domain
+I'll try calling piazza again to give me my account back but so far they've been to busy
+to process my requests.
